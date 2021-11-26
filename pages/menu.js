@@ -38,8 +38,8 @@ export default function Home() {
               Rejestracja
             </Link>
           </li>
-          <Link href="" class="flex items-end justify-end">
-          <img class="h-14 ml-16 rounded-full hover:bg-yellow-500 hover:shadow-2xl  " src= "koszyk.png"  alt="logo" ></img>
+          <Link href="koszyk" class="flex items-end justify-end">
+          <img class="h-14 ml-16 rounded-full hover:shadow hover:bg-yellow-100  " src= "koszyk.png"  alt="logo" ></img>
         </Link>
         </ul>
       </nav>
