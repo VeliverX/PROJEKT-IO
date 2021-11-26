@@ -60,7 +60,7 @@ export default function Home() {
                 <div class="text-center">
                     <p class="text-xl text-white font-bold mb-2">Kebab</p>
                     <p class="text-base text-yellow-300 font-normal">16zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white" ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white" >Baranina, Sałatka, Sos, Bułka</p>
                 </div>
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
@@ -70,7 +70,7 @@ export default function Home() {
                 <div class="text-center">
                     <p class="text-xl text-white font-bold mb-2">Rollo</p>
                     <p class="text-base text-yellow-300 font-normal">20zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white" ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white" >Baranina, Sałatka, Sos, Pita</p>
                 </div>
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
@@ -80,7 +80,7 @@ export default function Home() {
                 <div class="text-center">
                     <p class="text-xl text-white font-bold mb-2">Kubełek</p>
                     <p class="text-base text-yellow-300 font-normal">25zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white" ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white" >Frytki, Sałatka, Sos, Baranina, W Kubełeku</p>
                 </div>
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
@@ -90,7 +90,7 @@ export default function Home() {
                 <div class="text-center">
                     <p class="text-xl text-white font-bold mb-2">Rollo Amerykańskie</p>
                     <p class="text-base text-yellow-300 font-normal">17zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white" ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white" >Baranina, Frytki, Sos, Pita</p>
                 </div>
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
@@ -100,7 +100,7 @@ export default function Home() {
                 <div class="text-center">
                     <p class="text-xl text-white font-bold mb-2">Frytki</p>
                     <p class="text-base text-yellow-300 font-normal">6zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white" ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white" >Fytki z głębokiego oleju</p>
                 </div>
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
@@ -110,7 +110,7 @@ export default function Home() {
                 <div class="text-center ">
                     <p class="text-xl text-white font-bold mb-2">Sałatka Kebab</p>
                     <p class="text-base text-yellow-300 font-normal">21zł</p>
-                    <p class="text-base text-indigo-600 font-normal hover:text-white " ><Link href="koszyk" >Dodaj do koszyka </Link></p>
+                    <p class="text-base text-indigo-600 font-normal hover:text-white " >Kurczak, Sałatka, oliwa, sos majonezowy</p>
                 </div>
             </div>
         </div>
