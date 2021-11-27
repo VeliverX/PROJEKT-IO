@@ -4,7 +4,7 @@ import {Fragment} from 'react'
 export default function Home() {
     return (
         <body>
-        <header class="bg-yellow-600 bg-opacity-75 text-white shadow-lg hidden md:block">
+        <header class="bg-yellow-500 text-white shadow-lg hidden md:block">
         <Fragment>
     <div class="container mx-auto flex items-center h-24">
       <a href="" class="flex items-center justify-center">
@@ -24,7 +24,7 @@ export default function Home() {
             </Link>
           </li>
           <li class="p-5 xl:p-8">
-            <Link href="zamowienie">
+            <Link href="koszyk">
               Zamów Teraz
             </Link>
           </li>

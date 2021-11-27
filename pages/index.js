@@ -4,12 +4,13 @@ import Link from 'next/link'
 import {Fragment} from 'react'
 export default function Home() {
   return (
-    <header class="bg-yellow-600 bg-opacity-75 text-white shadow-lg hidden md:block">
+    <body>
+    <header class="bg-yellow-500 text-white shadow-lg hidden md:block">
       <Fragment>
   <div class="container mx-auto flex items-center h-24">
     <a href="" class="flex items-center justify-center">
       <img class="h-14" src="Logo.png" alt="logo" />
-      <span class="ml-4 text-lg normal-case font-bold text-yellow-700">Döner<br/>Kebab</span>
+      <span class="ml-4 text-lg normal-case font-bold text-yellow-800">Döner<br/>Kebab</span>
     </a>
     <nav class="contents font-semibold text-base lg:text-lg">
       <ul class="ml-auto flex items-center">
@@ -24,7 +25,7 @@ export default function Home() {
           </Link>
         </li>
         <li class="p-5 xl:p-8">
-          <Link href="zamowienie">
+          <Link href="koszyk">
             Zamów Teraz
           </Link>
         </li>
@@ -46,5 +47,6 @@ export default function Home() {
   </div>
   </Fragment>
 </header>
+</body>
   )
 }
