@@ -19,7 +19,7 @@ export default function Home() {
             <button class="w-full py-4 bg-yellow-400 bg-opacity-100 hover:bg-yellow-600 rounded text-sm font-bold text-gray-50 transition duration-200">Zaloguj się</button>
         </div>
         <div>
-        <Link href="rejestracjalogin_pracownik">
+        <Link href="login_pracownik">
         <a class="flex justify-center text-sm text-gray-500 hover:underline pb-4" href="#">Zaloguj jako pracownik</a>
         </Link>
         <Link href="rejestracja">
