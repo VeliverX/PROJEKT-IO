@@ -13,7 +13,7 @@ export default function Home() {
 
 				    </h2>
 				    <p class="text-sm md:text-base text-gray-50 mb-4">Załóż konto aby przeglądać i zamawiać swoje ulubione jedzenie.</p>
-					<Link href="http://localhost:3000/"> 
+					<Link href="./"> 
 						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Zaczynajmy</a>
 					</Link>	
 			        </div>
