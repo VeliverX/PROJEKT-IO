@@ -7,18 +7,25 @@ export default function Home() {
 
 
 <footer class="bg-gray-800 pt-10 sm:mt-10 pt-10">
+<a href="" class="flex items-center justify-center pt-10 pb-14">
+      <img class="h-10" src="Logo.png" alt="logo" />
+      <span class="ml-3 text-sm normal-case font-medium text-gray-300 ">DÖNER KEBAB</span>
+    </a>
     <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">   
         <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
             
             <div class="text-xs uppercase text-gray-400 font-medium mb-6">
-                KONTAKT
+                PRZYDATNE LINKI
             </div>
-              <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
-                doner@kebab.com
-            </a>
+
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
-                ul.Willowa 2, 43-309 Bielsko-Biała
+                O nas
             </a>
+            <Link href="kontakt">
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
+                Kontakt
+            </a>
+            </Link>
         </div>
 
         
