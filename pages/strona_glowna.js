@@ -4,7 +4,7 @@ import Link from 'next/link'
 import {Fragment} from 'react'
 export default function Home() {
   return (
-    <body >
+    <body class="bg-gray-800" >
     <header class="bg-yellow-500 text-white shadow-lg hidden md:block">
       <Fragment>
   <div class="container mx-auto flex items-center h-24">
@@ -47,7 +47,24 @@ export default function Home() {
   </div>
   </Fragment>
 </header>
-
+<section class="bg-gray-800">
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
+			    <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
+				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-700">ZOSTAŃ KURIEREM</h1>
+				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Praca u nas to czysta przyjemność!</h2>
+					<Link href="zostan_kurierem"> 
+						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
+					</Link>	
+			        </div>
+			    <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
+				    <div class="h-48 flex flex-wrap content-center">
+          <div>
+            <img class=" h-50 m-auto border-2 rounded-2xl " src="kurier.jpg" ></img>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
 <footer class="bg-gray-800">
 <a href="" class="flex items-center justify-center pt-10 pb-14">
       <img class="h-10" src="Logo.png" alt="logo" />
