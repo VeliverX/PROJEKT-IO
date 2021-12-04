@@ -16,7 +16,9 @@ export default function Home() {
             <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Hasło"></input>
         </div>
         <div>
+            <Link href="panel_pracownika">
             <button class="w-full py-4 bg-yellow-400 bg-opacity-100 hover:bg-yellow-600 rounded text-sm font-bold text-gray-50 transition duration-200">Zaloguj się</button>
+            </Link>
         </div>
         <div>
         <Link href="login">
