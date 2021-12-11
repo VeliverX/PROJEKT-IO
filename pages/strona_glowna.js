@@ -92,20 +92,42 @@ export default function Home() {
   </section>
 <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
-			    <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-700">ZOSTAŃ KURIEREM</h1>
+			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">ZOSTAŃ KURIEREM</h1>
 				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Praca u nas to czysta przyjemność!</h2>
 					<Link href="zostan_kurierem"> 
 						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
 					</Link>	
 			        </div>
-			    <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
-				    <div class="h-48 flex flex-wrap content-center">
+			    <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/3  justify-center">
+				    <div class="h-52 flex flex-wrap content-center">
           <div>
             <img class=" h-50 m-auto border-2 rounded-2xl " src="kurier.jpg" ></img>
           </div>
       </div>
     </div>
+  </div>
+</section>
+<section class="bg-gray-800">
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
+<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml- lg:w-1/3  justify-center">
+				    <div class="h-52 flex flex-wrap content-center">
+          <div>
+            <img class="h-96 m-auto border-2 rounded-2xl " src="pracownik.jpg" ></img>
+          </div>
+      </div>
+    </div>
+			    <div class="flex flex-col w-full lg:w-2/3 md:pt-5 justify-center items-start p-8">
+				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-700 pt-8">ZOSTAŃ PRACOWNIKIEM</h1>
+				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Nasz zespół powita cie z otwartymi ramionami!</h2>
+            <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Dobrze płatna</p1>
+            <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Miła atmosfera</p1>
+            <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Nie normowany czas pracy</p1>
+					<Link href="pracownik"> 
+						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
+					</Link>	
+			        </div>
+			   
   </div>
 </section>
 <footer class="bg-gray-800">
