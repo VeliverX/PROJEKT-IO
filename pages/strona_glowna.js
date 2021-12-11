@@ -95,6 +95,7 @@ export default function Home() {
     <div class="flex flex-wrap w-full mb-8">
       <div class="w-full mb-6 lg:mb-0">
         <h1 class=" text-center sm:text-4xl text-5xl font-medium title-font mb-2 text-yellow-800">Galeria Produktów</h1>
+        <h1 class=" text-center sm:text-3xl text-4xl font-medium title-font mb-2 text-gray-400">A ty na co masz dziś ochotę?</h1>
         
       </div>
     </div>
@@ -105,24 +106,24 @@ export default function Home() {
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Kebab w bułce</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Kebab w bułce</h3>
         </div>
       </div>
       <div class="lg:w-1/3 p-4 w-1/2">
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Rollo</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Rollo</h3>
         </div>
       </div>
       <div class="lg:w-1/3 p-4 w-1/2">
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Kubełek</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Kubełek</h3>
 
         </div>
       </div>
@@ -130,24 +131,24 @@ export default function Home() {
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Rollo Amerykańskie</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Rollo Amerykańskie</h3>
         </div>
       </div>
       <div class="lg:w-1/3 p-4 w-1/2">
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Frytki</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Frytki</h3>
         </div>
       </div>
       <div class="lg:w-1/3 p-4 w-1/2">
         <a class="block relative h-72 rounded overflow-hidden">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
         </a>
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Sałatka Kebab</h3>
+        <div class="mt-4 text-center">
+          <h3 class="text-gray-400 text-xs tracking-widest title-font font-semibold py-1 mb-1 border-2 rounded-lg border-gray-700">Sałatka Kebab</h3>
         </div>
       </div>
     </div>
@@ -182,10 +183,10 @@ export default function Home() {
     </div>
 			    <div class="flex flex-col w-full lg:w-2/3 md:pt-5 justify-center items-start p-8">
 				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-700 pt-8">ZOSTAŃ PRACOWNIKIEM</h1>
-				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Nasz zespół powita cie z otwartymi ramionami!</h2>
+				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Nasz zespół powita Cię z otwartymi ramionami!</h2>
             <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Dobrze płatna</p1>
             <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Miła atmosfera</p1>
-            <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Nie normowany czas pracy</p1>
+            <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Nienormowany czas pracy</p1>
 					<Link href="pracownik"> 
 						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
 					</Link>	
