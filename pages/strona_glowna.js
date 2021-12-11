@@ -90,6 +90,69 @@ export default function Home() {
     </div>
     
   </section>
+  <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-8">
+      <div class="w-full mb-6 lg:mb-0">
+        <h1 class=" text-center sm:text-4xl text-5xl font-medium title-font mb-2 text-yellow-800">Galeria Produktów</h1>
+        
+      </div>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      
+      
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Kebab w bułce</h3>
+        </div>
+      </div>
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Rollo</h3>
+        </div>
+      </div>
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Kubełek</h3>
+
+        </div>
+      </div>
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Rollo Amerykańskie</h3>
+        </div>
+      </div>
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Frytki</h3>
+        </div>
+      </div>
+      <div class="lg:w-1/3 p-4 w-1/2">
+        <a class="block relative h-72 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="kebab.png"></img>
+        </a>
+        <div class="mt-4">
+          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Sałatka Kebab</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
