@@ -15,9 +15,11 @@ export default function Home() {
         <div>
             <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Hasło"></input>
         </div>
+        <Link href="konto_uzytkownika">
         <div>
             <button class="w-full py-4 bg-yellow-400 bg-opacity-100 hover:bg-yellow-600 rounded text-sm font-bold text-gray-50 transition duration-200">Zaloguj się</button>
         </div>
+        </Link>
         <div>
         <Link href="login_pracownik">
         <a class="flex justify-center text-sm text-gray-500 hover:underline pb-4" href="#">Zaloguj jako pracownik</a>

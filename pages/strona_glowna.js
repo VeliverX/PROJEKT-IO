@@ -5,7 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
     <body class="bg-gray-800" >
-    <header class="bg-yellow-400 text-white shadow-lg hidden md:block">
+    <header class="bg-yellow-400 text-white shadow-lg hidden md:block sticky top-0 z-50">
       <Fragment>
   <div class="container mx-auto flex items-center h-24">
     <a href="" class="flex items-center justify-center">
@@ -193,6 +193,58 @@ export default function Home() {
 			        </div>
 			   
   </div>
+  <section class="flex justify-center pt-12 h-96 bg-yellow-400 ">
+    <div class="leading-loose">
+                <h class="font-bold text-4xl flex justify-center pb-16">Miasta w których działamy</h>
+        <div class="mb-3 -mx-2 flex items-end pt-4 px-96 w-screen ">
+            <div class="px-3 w-1/6 ml-80 ">               
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Warszawa</button>              
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Kraków</button>
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Łódź</button>
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Gdańsk</button>
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Poznań</button>
+            </div>
+
+            <div class="px-2 w-1/6 mr-80">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Wrocław</button>
+            </div>
+        </div>
+
+        <div class="mb-3 -mx-2 flex items-end pt-4 flex justify-center px-96 w-screen">
+            <div class="px-2 w-1/6 ml-96">               
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Gdynia</button>              
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Olsztyn</button>
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Bydgoszcz</button>
+            </div>
+
+            <div class="px-2 w-1/6">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Szczecin</button>
+            </div>
+
+            <div class="px-2 w-1/6 mr-96">
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Bielsko-Biała</button>
+            </div>
+        </div>
+    </div>
+</section>
   <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
@@ -231,6 +283,11 @@ export default function Home() {
             <Link href="kontakt">
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 Kontakt
+            </a>
+            </Link>
+            <Link href="lokalizacja">
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
+                Lokalizacja
             </a>
             </Link>
         </div>
