@@ -47,7 +47,7 @@ export default function Home() {
   </div>
   </Fragment>
 </header>
-<section class="bg-white pt-36 h-screen">
+<section class="bg-white pt-36 pb-36">
     <h3 class="text-2xl tracking-widest text-black text-center">Jak to działa?</h3>
     <h1 class="mt-8 text-center text-4xl text-blue-500 font-bold">Od jedzenia dzielą Cię 3 proste kroki.</h1>
     
