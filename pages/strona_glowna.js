@@ -189,6 +189,22 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section class="flex justify-center py-12 h-auto bg-yellow-400 ">
+<div class="max-w-screen-xl w-full bg-gray-800 rounded-2xl p-10  space-y-6">
+  <h1 class="flex justify-center text-white text-3xl font-medium">Nasze składniki:</h1>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Dbamy o to by produtky był każdego dnia swierze, a co za tym idzie najsmaczniejsze:</p1>
+    </div>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Warzywa:</p1>
+    <p2 class="flex justify-center text-gray-400">Wszystkie warzywa w naszej restauracji pozystkiwane są od lokalnych dostawców gwarantując pełnię smaku!</p2>
+    </div>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Mięso:</p1>
+    <p2 class="flex justify-center text-gray-400">Mieso pochodzi prosto od naszego sprawdzonego hodowcy!</p2>
+    </div>
+</div>
+</section>
 <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml- lg:w-1/3  justify-center">
