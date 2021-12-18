@@ -154,6 +154,23 @@ export default function Home() {
     </div>
   </div>
 </section>
+<section class="flex justify-center py-12 h-auto bg-yellow-400 ">
+<div class="max-w-screen-xl w-full bg-gray-800 rounded-2xl p-10  space-y-6">
+  <h1 class="flex justify-center text-white text-3xl font-medium">FAQ:</h1>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Ile za dowóz?</p1>
+    <p2 class="flex justify-center text-gray-400">Na terenie naszego miasta za darmo, poza 2zł.</p2>
+    </div>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Co jeżeli nie bedę mógł odebrać zamówienia?</p1>
+    <p2 class="flex justify-center text-gray-400">Kurier skontaktuje się z państwem by omówić szczegóły.</p2>
+    </div>
+    <div>
+    <p1 class="flex justify-center text-gray-200">Czy jest możliwość przygotowania personalizowanego zamówienia( np. bez sałatki)?</p1>
+    <p2 class="flex justify-center text-gray-400">Tak, jest to możliwe. W takim przypadku należy skontaktowac sie z nami na naszej infolini. 800-202-654 </p2>
+    </div>
+</div>
+</section>
 <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
