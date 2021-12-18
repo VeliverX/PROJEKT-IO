@@ -28,11 +28,11 @@ return (
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
         <div class="flex justify-between px-4 items-center">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-2 " src="kebab.png" alt="produkt"></img>
+                    <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Kebab w bułce</p>
-              <p class="text-yellow-900 text-xl">16 zł</p>
+              <p class="text-lg sm:text-xl">Kebab w bułce</p>
+              <p class="text-yellow-900 text-base sm:text-lg">16 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
@@ -46,11 +46,11 @@ return (
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
         <div class="flex justify-between px-4 items-center">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-4" src="kebab.png" alt="produkt"></img>
+        <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Rollo Kebab</p>
-              <p class="text-yellow-900 text-xl">20 zł</p>
+              <p class="text-lg sm:text-xl">Rollo Kebab</p>
+              <p class="text-yellow-900 text-base sm:text-lg">20 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
@@ -64,11 +64,11 @@ return (
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
         <div class="flex justify-between px-4 items-center">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-4" src="kebab.png" alt="produkt"></img>
+        <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Kubełek Kebab</p>
-              <p class="text-yellow-900 text-xl">25 zł</p>
+              <p class="text-lg sm:text-xl">Kubełek Kebab</p>
+              <p class="text-yellow-900 text-base sm:text-lg">25 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
@@ -82,11 +82,11 @@ return (
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
         <div class="flex justify-between px-4 items-center">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-4" src="kebab.png" alt="produkt"></img>
+        <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Rollo Amerykańskie</p>
-              <p class="text-yellow-900 text-xl">17 zł</p>
+              <p class="text-lg sm:text-xl">Rollo Amerykańskie</p>
+              <p class="text-yellow-900 text-base sm:text-lg">17 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
@@ -100,11 +100,11 @@ return (
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
         <div class="flex justify-between px-4 items-center">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-4" src="kebab.png" alt="produkt"></img>
+        <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Frytki</p>
-              <p class="text-yellow-900 text-xl">6 zł</p>
+              <p class="text-lg sm:text-xl">Frytki</p>
+              <p class="text-yellow-900 text-base sm:text-lg">6 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
@@ -116,13 +116,13 @@ return (
         </div>
       </div>
       <div class="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
-        <div class="flex justify-between px-4 items-center">
+        <div class="flex justify-between px-4 items-left">
         <div class>
-                    <img class="object-ce object-cover rounded-full h-28 w-28 ml-4" src="kebab.png" alt="produkt"></img>
+        <img class="object-ce object-cover rounded-full h-16 w-16 sm:ml-2 sm:h-28 sm:w-28 " src="kebab.png" alt="produkt"></img>
                 </div>
             <div class="text-lg font-semibold"> 
-              <p class="text-2xl">Sałatka Kebab</p>
-              <p class="text-yellow-900 text-xl">21 zł</p>
+              <p class="text-lg sm:text-xl">Sałatka Kebab</p>
+              <p class="text-yellow-900 text-base sm:text-lg">21 zł</p>
             </div>
             <div class="text-lg font-semibold"> 
              <button class="focus:outline-none bg-yellow-800 hover:bg-pink-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center ">
