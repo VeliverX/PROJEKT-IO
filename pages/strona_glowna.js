@@ -54,7 +54,7 @@ export default function Home() {
     
     <div class="md:flex md:justify-center md:space-x-12 md:px-14">
     <Link href="rejestracja">
-      <div class="mt-16 py-12 px-4 bg-yellow-400 w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+      <div class="mt-16 py-12 px-4 bg-yellow-400 w-72 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
         <div class="w-sm">
           <img class="px-16 py-4" src="login.png" alt="" />
           <div class="mt-4 text-blue-500 text-center">
@@ -66,7 +66,7 @@ export default function Home() {
       </Link>
 
       <Link href="menu">
-      <div class="mt-16 py-8 px-4 bg-yellow-400 w-72 bg-white rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+      <div class="mt-16 py-8 px-4 bg-yellow-400 w-72 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
         <div class="w-sm">
           <img class="px-16 py-4" src="doner-kebab.png" alt="" />
           <div class="mt-4 text-blue-500 text-center">
@@ -239,7 +239,7 @@ export default function Home() {
             </div>
         </div>
 
-        <div class="mb-3 -mx-2 flex items-end pt-4 flex justify-center px-96 w-screen">
+        <div class="mb-3 -mx-2 flex items-end pt-4 justify-center px-96 w-screen">
             <div class="px-2 w-1/6 ml-96">               
                 <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Gdynia</button>              
             </div>
