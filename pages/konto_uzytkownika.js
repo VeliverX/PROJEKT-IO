@@ -59,7 +59,7 @@ export default function Home() {
             <svg class="h-5 w-5 text-black"  
             width="24" height="24" 
             viewBox="0 0 24 24" 
-            stroke-width="2" 
+            stroke-width="1" 
             stroke="currentColor" 
             fill="none" 
             stroke-linecap="round" 
