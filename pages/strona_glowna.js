@@ -15,7 +15,7 @@ export default function Home() {
     <nav class="contents font-semibold text-base lg:text-lg">
       <ul class="ml-auto flex items-center">
         <li class="p-5 xl:p-8 active">
-          <Link href="./">
+          <Link href="strona_glowna">
             Strona Głowna
           </Link>
         </li>
@@ -90,6 +90,36 @@ export default function Home() {
     </div>
     
   </section>
+  <section class="bg-gray-800">
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
+			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">Bądz z nami mobilnie!</h1>
+				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Szybki dostep w każdym miejscu i o każdej porze?</h2>
+            <p1 class="text-xl md:text-xl leading-relaxed text-white md:leading-snug mb-2">Nie ma nic prostrzego!</p1>
+            <nav class="contents font-semibold text-base lg:text-lg">
+              <ul class="flex items-center">
+              <li class="p-5 xl:p-8">
+					<Link href="https://play.google.com/"> 
+						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Google Play</a>
+					</Link>	
+          </li>
+          <li class="p-5 xl:p-8">
+          <Link href="https://www.apple.com/pl/app-store/"> 
+						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Apple Stor</a>
+					</Link>	
+          </li>
+          </ul>
+          </nav>
+			        </div>
+			    <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/3 w-2/3  justify-center">
+				    <div class="h-52 flex flex-wrap content-center">
+          <div>
+            <img class=" h-2/3 sm:pl-24 lg:h-full mt- m-auto pl-10" src="app.png" ></img>
+          </div>
+      </div>
+    </div>
+  </div>
+</section> 
   <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-8">
@@ -99,6 +129,8 @@ export default function Home() {
         
       </div>
     </div>
+
+    
     <div class="flex flex-wrap -m-4">
       
       
@@ -447,6 +479,7 @@ export default function Home() {
     </div>
   </div>
 </section> 
+
 </section>
 <footer class="bg-gray-800">
 <a href="" class="flex items-center justify-center pt-10 pb-14">
