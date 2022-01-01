@@ -58,14 +58,14 @@ export default function Home() {
                 </div>
                 <div class="text-center">
                     <h1 class="text-xl text-white font-bold mb-2">Jesteśmy Döner Kebab</h1>
-                    <p class="text-base text-gray-300 font-normal">Portal który pozwala zamawiać nalepsze posiłki z całej okolicy w zaledwie kilka minut.
+                    <p class="text-base text-gray-300 font-normal">Portal, który pozwala zamawiać nalepsze posiłki z całej okolicy w zaledwie kilka minut.
                     Naszymi najważniejszymi zasadami są:
                     <ul>
-                    <li class="text-base text-gray-300 font-normal">&#9830; szybki oraz łatwy sposób zamawiania</li>
-                    <li class="text-base text-gray-300 font-normal">&#9830; wybierać tylko najlepsze lokalne pordukty</li>
-                    <li class="text-base text-gray-300 font-normal">&#9830; stały kontakt z odbiorcami by stale się rozwijać</li>
+                    <li class="text-base text-gray-100 font-bold">&#9830; szybki oraz łatwy sposób zamawiania,</li>
+                    <li class="text-base text-gray-100 font-bold">&#9830; wybierać tylko najlepsze lokalne pordukty,</li>
+                    <li class="text-base text-gray-100 font-bold">&#9830; stały kontakt z odbiorcami by stale się rozwijać.</li>
                     </ul>
-                    Dzięki temu utrzymujemy najwyższy poziom jak i cały czas go podnosimy by nasi klienci byli zadowoleni za każdym razem gdy zamówią u nas posiłek!
+                    Dzięki temu utrzymujemy najwyższy poziom jak i cały czas go podnosimy, by nasi klienci byli zadowoleni za każdym razem, gdy zamówią u nas posiłek!
                     </p>
                     
                 </div>

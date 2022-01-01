@@ -93,8 +93,8 @@ export default function Home() {
   <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">Bądz z nami mobilnie!</h1>
-				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Szybki dostep w każdym miejscu i o każdej porze?</h2>
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">Bądź z nami mobilnie!</h1>
+				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Szybki dostęp w każdym miejscu i o każdej porze?</h2>
             <p1 class="text-xl md:text-xl leading-relaxed text-white md:leading-snug mb-2">Nie ma nic prostrzego!</p1>
             <nav class="contents font-semibold text-base lg:text-lg">
               <ul class="flex items-center">
@@ -105,7 +105,7 @@ export default function Home() {
           </li>
           <li class="p-5 xl:p-8">
           <Link href="https://www.apple.com/pl/app-store/"> 
-						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Apple Stor</a>
+						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Apple Store</a>
 					</Link>	
           </li>
           </ul>
