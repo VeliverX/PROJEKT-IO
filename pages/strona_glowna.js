@@ -459,6 +459,11 @@ export default function Home() {
             <div class="text-xs uppercase text-gray-400 font-medium mb-6">
                 PRZYDATNE LINKI
             </div>
+            <Link href="aktualnosci">
+            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
+                Aktualności
+            </a>
+            </Link>
           <Link href="o_nas">
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 O nas
