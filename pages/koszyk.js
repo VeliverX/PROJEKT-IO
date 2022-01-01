@@ -265,7 +265,7 @@ return (
           
           <div class="flex justify-center items-center text-center">
                 <div class="text-xl font-semibold"> 
-                  <p>Total Item</p>
+                  <p>Ilość</p>
                   <p class="text-5xl">0</p>
                 </div>
           </div>
@@ -276,7 +276,7 @@ return (
         
           <div class="flex justify-center items-center text-center">
             <div class="text-xl font-semibold"> 
-                <p>Total Price</p>
+                <p>Suma do zapłaty</p>
                 <p class="text-5xl">0</p>
             </div>
           </div>
