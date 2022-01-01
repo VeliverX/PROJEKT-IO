@@ -128,10 +128,11 @@ export default function Home() {
             <div class="text-xs uppercase text-gray-400 font-medium mb-6">
                 PRZYDATNE LINKI
             </div>
-
+            <Link href="o_nas">
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 O nas
             </a>
+            </Link>
             <Link href="kontakt">
             <a L href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 Kontakt
@@ -149,9 +150,11 @@ export default function Home() {
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 Pomoc
             </a>
-            <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
+            <Link href="regulamin">
+            <a class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 Regulamin
             </a>
+            </Link>
             <a href="#" class="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700 hover:underline">
                 Polityka prywatności
             </a>
