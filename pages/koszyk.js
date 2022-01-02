@@ -2,18 +2,30 @@ import Link from 'next/link'
 export default function Home() {
 return (
     <body class="bg-gray-800 h-full md:h-screen" >
-    <header class="bg-yellow-500  text-white shadow-lg hidden md:block">
+    <header class="bg-yellow-400  text-white shadow-lg hidden md:block">
       
   <div class="container mx-auto flex items-center h-24">
+    <Link href="strona_glowna">
+    <div>
     <a href="" class="flex items-center justify-center">
       <img class="h-14" src="Logo.png" alt="logo" />
-      <span class="ml-4 text-lg normal-case font-bold text-white">NASZE<br/>Produkty</span>
+      <span class="ml-4 text-lg normal-case font-semibold text-white">Döner Kebab</span>
     </a>
+    </div>
+    </Link>
     <nav class="contents font-semibold text-base lg:text-lg">
       <ul class="ml-auto flex items-center">
         <li class="p-5 xl:p-8">
-        <Link href="./">
-            Powrót
+        <Link href="strona_glowna">
+        <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        width="40" 
+        height="40" 
+        fill="currentColor" 
+        class="bi bi-box-arrow-right" 
+        viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+</svg>
           </Link>
         </li>
       </ul>
