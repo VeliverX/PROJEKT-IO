@@ -108,7 +108,9 @@ export default function Home() {
     <div class="md:flex md:justify-center md:space-x-2 md:px-14">
       <div class="mt-24 p-8 px-4 bg-white w-96 shadow-lg ">
         <div class="w-sm">
-        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 "></div> 
+        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 ">
+        <p class="text-6xl text-white ml-7 mt-3">1</p>
+        </div> 
           <div class=" text-gray-700 text-center">
           <img class="object-cover w-42 h-42 mb-20" src="rollo.png"></img>
                   
@@ -120,20 +122,16 @@ export default function Home() {
         <div class="w-sm">
           <div class="text-gray-700  text-center">
             <h1 class="text-xl font-bold pb-8 pt-8">Kebab Rollo</h1>
-            
-            <p class="text-xl p-2">
-                Bułka
+            <p class="mx-10 mb-12">
+            Klasyczna forma naszej potrawy. Świeże warzywa, oryginalne sosy i nasze wyjątkowe mięso, 
+            zawinięte w pszenną lub wieloziarnistą tortillę do wyboru. Jeśli wolisz rollo z frytkami, spróbuj wersji Rollo Amerykańskie.
             </p>
-            <p class="text-xl p-2">
-                Mięso
+            <h class="text-xl p-2">
+                Składniki:
+            </h>
+            <p class="p-2">
+                Tortilla, mięso, warzywa oraz wybrany sos.
             </p>
-            <p class="text-xl p-2">
-                Warzywa
-            </p>
-            <p class="text-xl p-2">
-                Sos
-            </p>
-
           </div>
         </div>
       </div>
@@ -142,7 +140,9 @@ export default function Home() {
     <div class="md:flex md:justify-center md:space-x-2 md:px-14">
       <div class="mt-24 p-8 px-4 bg-white w-96 shadow-lg ">
         <div class="w-sm">
-        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 "></div> 
+        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 "> 
+        <p class="text-6xl text-white ml-8 mt-3">2</p>
+        </div> 
           <div class=" text-gray-700 text-center">
           <img class="object-cover w-42 h-42 mb-20" src="Kebab1.png"></img>
                   
@@ -155,20 +155,16 @@ export default function Home() {
           <div class="text-gray-700  text-center">
             <h1 class="text-xl font-bold pb-8 pt-8">Kebab Klasyczny</h1>
             
-            <p class="text-xl p-2">
-                Chlebek
+            <p class="mx-10 mb-12">
+            Absolutna klasyka gatunku i jedna z naszych najpopularniejszych potraw. Jej smak to kombinacja 
+            chrupiącego pieczywa, świeżo krojonych warzyw, oryginalnych sosów i oczywiście jednego z naszych 
+            wyjątkowych mięs.
             </p>
-            <p class="text-xl p-2">
-                Pita
-            </p>
-            <p class="text-xl p-2">
-                Mięso
-            </p>
-            <p class="text-xl p-2">
-                Warzywa
-            </p>
-            <p class="text-xl p-2">
-                Sos
+            <h class="text-xl p-2">
+                Składniki:
+            </h>
+            <p class="p-2">
+                Byłka, mięso, warzywa oraz wybrany sos.
             </p>
             
           </div>
@@ -179,7 +175,9 @@ export default function Home() {
     <div class="md:flex md:justify-center md:space-x-2 md:px-14">
       <div class="mt-24 p-8 px-4 bg-white w-96 shadow-lg ">
         <div class="w-sm">
-        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 "></div>
+        <div class="w-24 h-24  bg-yellow-400 relative rounded-full flex -top-16 -left-12 ">
+        <p class="text-6xl text-white ml-8 mt-3">3</p>
+        </div>
           <div class=" text-gray-700 text-center">
           <img class="object-cover w-42 h-42 mb-20" src="frytki1.png"></img>
                   
@@ -191,7 +189,15 @@ export default function Home() {
         <div class="w-sm">
           <div class="text-gray-700  text-center">
             <h1 class="text-xl font-bold pb-8 pt-8">Frytki</h1>
-            
+            <p class="mx-10 mb-12">
+            Złociste frytki z najlepszych odmian ziemniaków.
+            </p>
+            <h class="text-xl p-2">
+                Składniki:
+            </h>
+            <p class="p-2">
+                Ziemniaki.
+            </p>
           </div>
         </div>
       </div>

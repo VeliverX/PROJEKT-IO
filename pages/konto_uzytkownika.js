@@ -34,6 +34,24 @@ export default function Home() {
 
             </div>
           </a>
+          <Link href="status_zamowienia">
+          <a href="#" class="px-4 py-2 hover:bg-gray-100 flex">
+            <div class="text-gray-800">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                 strokeWidth="1"
+                 fill="currentColor" 
+                 class="w-5 h-5" 
+                 viewBox="0 0 16 16">
+              <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+            </svg>
+            </div>
+            <div class="pl-3">
+              <p class="py-2 text-sm font-medium text-gray-800 leading-none">Status zamówienia</p>
+
+            </div>
+          </a>
+          </Link>
           <a href="#" class="px-4 py-2 hover:bg-gray-100 flex">
             <div class="text-gray-800">
               <svg

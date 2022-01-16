@@ -10,10 +10,10 @@ export default function Home() {
             <p class="flex justify-center text-gray-600 text-3xl font-medium	">Logowanie</p>
         </div>
         <div>
-            <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Email"></input>
+            <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="emial" placeholder="Email"></input>
         </div>
         <div>
-            <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="text" placeholder="Hasło"></input>
+            <input class="w-full p-4 text-sm bg-gray-50 focus:outline-none border border-gray-200 rounded text-gray-600" type="password" placeholder="Hasło"></input>
         </div>
         <Link href="konto_uzytkownika">
         <div>
