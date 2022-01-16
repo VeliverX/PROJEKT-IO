@@ -15,17 +15,17 @@ export default function Home() {
           <p class="pt-2 text-lg font-semibold">Elon Musk</p>
         </div>
         <div class="border-b">
-        <Link href="">
+        <Link href="zmien_e-mail">
         <a class="px-4 py-2 pb-4 hover:bg-gray-100 flex">
         <p class="py-2 text-sm font-bold text-gray-800 leading-none">Zmień E-mail</p> 
         </a>
         </Link>
-        <Link href="">
+        <Link href="zmien_haslo">
         <a class="px-4 py-2 pb-4 hover:bg-gray-100 flex">
         <p class="py-2 text-sm font-bold text-gray-800 leading-none">Zmień Hasło</p> 
         </a>
         </Link>
-        <Link href="">
+        <Link href="zmien_numer">
         <a class="px-4 py-2 pb-4 hover:bg-gray-100 flex">
         <p class="py-2 text-sm font-bold text-gray-800 leading-none">Zmień numer telefonu</p> 
         </a>
