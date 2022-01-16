@@ -71,6 +71,7 @@ export default function Home() {
               <p class="py-2 text-sm font-medium text-gray-800 leading-none">Ustawienia</p>
             </div>
           </a>
+          
           <Link href="zostan_kurierem">
           <a href="#" class="px-4 py-2 hover:bg-gray-100 flex">
             <div class="text-gray-800">
