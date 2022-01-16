@@ -1,11 +1,13 @@
 
- import 'tailwindcss/tailwind.css'
+import 'tailwindcss/tailwind.css'
 import Link from 'next/link'
 import {Fragment} from 'react'
+
+
 export default function Home() {
   return (
     <body class="bg-gray-800" >
-    <header class="bg-yellow-400 text-white shadow-lg hidden md:block sticky top-0 z-50">
+    <header class="bg-yellow-400 text-white  hidden md:block sticky top-0 z-50 ">
     <Fragment>
 <div class="container mx-auto flex items-center h-24">
   <Link href="strona_glowna">
@@ -16,7 +18,7 @@ export default function Home() {
     </a>
     </div>
     </Link>
-  <nav class="contents font-semibold text-base lg:text-lg">
+  <div class="contents font-semibold text-base lg:text-lg">
     <ul class="ml-auto flex items-center">
     <button class="
     relative 
@@ -97,33 +99,54 @@ export default function Home() {
     </Link>
     </div>
     </ul>
-  </nav>
+  </div>
 </div>
 </Fragment>
 </header>
-<section class="bg-white pt-36 pb-36">
+<section class="bg-gray-100 pt-36 pb-48">
+<div class="custom-shape-divider-top-1641766565">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
     <h3 class="text-2xl tracking-widest text-black text-center">Jak to działa?</h3>
-    <h1 class="mt-8 text-center text-4xl text-blue-500 font-bold">Od jedzenia dzielą Cię 3 proste kroki.</h1>
+    <h1 class="mt-8 text-center text-4xl text-yellow-400 font-bold">Od jedzenia dzielą Cię 3 proste kroki.</h1>
     
     
     <div class="md:flex md:justify-center md:space-x-12 md:px-14">
     <Link href="rejestracja">
-      <div class="mt-16 py-12 px-4 bg-yellow-400 w-72 shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+      <div class="mt-16 py-12 px-4 bg-white w-72 shadow-lg hover:shadow-xl mx-auto md:mx-0 ">
         <div class="w-sm">
-          <img class="px-16 py-4" src="login.png" alt="" />
-          <div class="mt-4 text-blue-500 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               width="96" 
+               height="96" 
+               fill="currentColor" 
+               class="ml-20" 
+               viewBox="0 0 16 16">
+            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+            <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+          </svg>
+          <div class="mt-4 text-yellow-400 text-center">
             <h1 class="text-xl font-bold">Załóż konto</h1>
-            <p class="mt-4 text-gray-600 pb-8">Załóż konto lub zaloguj się aby złożyć zamówienie.</p>
+            <p class="mt-4 text-gray-600 pb-8 mb">Załóż konto lub zaloguj się aby złożyć zamówienie.</p>
           </div>
         </div>  
       </div>
       </Link>
 
       <Link href="menu">
-      <div class="mt-16 py-8 px-4 bg-yellow-400 w-72 shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+      <div class="mt-16 py-8 px-4 bg-white w-72 shadow-lg hover:shadow-xl mx-auto md:mx-0">
         <div class="w-sm">
-          <img class="px-16 py-4" src="doner-kebab.png" alt="" />
-          <div class="mt-4 text-blue-500 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             width="96" 
+             height="96" 
+             fill="currentColor" 
+             class="ml-20" 
+             viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </svg>
+          <div class="mt-4 text-yellow-400 text-center">
             <h1 class="text-xl font-bold">Wybierz danie</h1>
             <p class="mt-4 text-gray-600">Znajdz i dodaj ulubione danie do koszyka.</p>
 
@@ -132,22 +155,29 @@ export default function Home() {
       </div>
       </Link>
       
-      <div class="mt-16 py-8 px-4 bg-whit w-72 bg-yellow-400 shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-500 mx-auto md:mx-0">
+      <div class="mt-16 py-8 px-4 bg-whit w-72 bg-white shadow-lg hover:shadow-xl mx-auto md:mx-0">
         <div class="w-sm">
-          <img class="px-16 py-4" src="fast-delivery.png" alt="" />
-          <div class="mt-4 text-blue-500 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        width="96" 
+        height="96" 
+        fill="currentColor" 
+        class="ml-20" 
+        viewBox="0 0 16 16">
+        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+      </svg>
+          <div class="mt-4 text-yellow-400 text-center">
             <h1 class="text-xl font-bold">Zapłać i czekaj na dostawę</h1>
             <p class="mt-4 text-gray-600">Zapłać online lub gotówką przy odbiorze i gotowe.</p>
           </div>
         </div>
       </div>
     </div>
-    
   </section>
   <section class="bg-gray-800">
 <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">Bądź z nami mobilnie!</h1>
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-400">Bądź z nami mobilnie!</h1>
 				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Szybki dostęp w każdym miejscu i o każdej porze?</h2>
             <p1 class="text-xl md:text-xl leading-relaxed text-white md:leading-snug mb-2">Nie ma nic prostrzego!</p1>
             <nav class="contents font-semibold text-base lg:text-lg">
@@ -178,7 +208,7 @@ export default function Home() {
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-8">
       <div class="w-full mb-6 lg:mb-0">
-        <h1 class=" text-center sm:text-4xl text-5xl font-medium title-font mb-2 text-yellow-800">Galeria Produktów</h1>
+        <h1 class=" text-center sm:text-4xl text-5xl font-medium title-font mb-2 text-yellow-400">Galeria Produktów</h1>
         <h1 class=" text-center sm:text-3xl text-4xl font-medium title-font mb-2 text-gray-400">A ty na co masz dziś ochotę?</h1>
         
       </div>
@@ -240,8 +270,8 @@ export default function Home() {
     </div>
   </div>
 </section>
-<section class="flex justify-center py-12 h-auto bg-yellow-400 ">
-<div class="max-w-screen-xl w-full bg-gray-800 rounded-2xl p-10  space-y-6">
+<section class="flex justify-center py-12 h-auto bg-yellow-400 pb-44 pt-44">
+<div class="max-w-screen-xl w-full bg-gray-800  p-10  space-y-6">
   <h1 class="flex justify-center text-white text-3xl font-medium">FAQ:</h1>
     <div>
     <p1 class="flex justify-center text-gray-200">Ile za dowóz?</p1>
@@ -257,8 +287,12 @@ export default function Home() {
     </div>
 </div>
 </section>
-
-<section class="bg-gray-100 pt-32 pb-36">
+<section class="bg-gray-100  pb-36">
+  <div class="custom-shape-divider-top-1642345992">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+  </div>
     <h1 class="text-2xl tracking-widest text-black text-center">Döner Kebab</h1>
     <h2 class="mt-8 text-center text-3xl text-yellow-400 font-bold">Zamawiaj u najlepszych.</h2>
     
@@ -407,10 +441,10 @@ export default function Home() {
     
 </section>
 
-<section class="bg-gray-800">
-<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
-			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">ZOSTAŃ KURIEREM</h1>
+<section class="bg-yellow-400  ">
+<div class="container mx-auto flex flex-col md:flex-row items-center p-24 pb-36 ">
+			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8  ">
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-blue-500 mt-24">ZOSTAŃ KURIEREM</h1>
 				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Praca u nas to czysta przyjemność!</h2>
 					<Link href="zostan_kurierem"> 
 						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
@@ -419,14 +453,14 @@ export default function Home() {
 			    <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-1/3  justify-center">
 				    <div class="h-52 flex flex-wrap content-center">
           <div>
-            <img class=" h-50 m-auto border-2 rounded-2xl " src="kurier.jpg" ></img>
+            <img class=" h-50 m-auto border-2 rounded-2xl mt-24" src="kurier.jpg" ></img>
           </div>
       </div>
     </div>
   </div>
 </section>
-<section class="flex justify-center py-12 h-auto bg-yellow-400 ">
-<div class="max-w-screen-xl w-full bg-gray-800 rounded-2xl p-10  space-y-6">
+<section class="flex justify-center pt-24 pb-36 h-auto bg-yellow-400 ">
+<div class="max-w-screen-xl w-full bg-gray-800  p-10  space-y-6">
   <h1 class="flex justify-center text-white text-3xl font-medium">Nasze składniki:</h1>
     <div>
     <p1 class="flex justify-center text-gray-200">Dbamy o to by produtky był każdego dnia swierze, a co za tym idzie najsmaczniejsze:</p1>
@@ -441,8 +475,13 @@ export default function Home() {
     </div>
 </div>
 </section>
+<div class="custom-shape-divider-top-1642342006">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+</div>
 <section class="bg-gray-800">
-<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 mb-52">
 <div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml- lg:w-1/3  justify-center">
 				    <div class="h-52 flex flex-wrap content-center">
           <div>
@@ -451,7 +490,7 @@ export default function Home() {
       </div>
     </div>
 			    <div class="flex flex-col w-full lg:w-2/3 md:pt-5 justify-center items-start p-8">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-700 pt-8">ZOSTAŃ PRACOWNIKIEM</h1>
+				    <h1   h1 class="text-3xl md:text-5xl pb-2 text-yellow-400 pt-8">ZOSTAŃ PRACOWNIKIEM</h1>
 				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Nasz zespół powita Cię z otwartymi ramionami!</h2>
             <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Dobrze płatna</p1>
             <p1 class="text-2xl md:text-3xl leading-relaxed text-white md:leading-snug mb-2"> : Miła atmosfera</p1>
@@ -460,11 +499,18 @@ export default function Home() {
 						<a class="duration-1000 bg-transparent hover:bg-white text-white hover:text-black rounded shadow hover:shadow-lg py-2 px-6 border-2 border-white hover:border-transparent">Złóż Podanie</a>
 					</Link>	
 			        </div>
-			   
   </div>
-  <section class="flex justify-center pt-12 h-96 bg-yellow-400 ">
-    <div class="leading-loose">
-                <h class="font-bold text-4xl flex justify-center pb-16">Miasta w których działamy</h>
+    <div class="custom-shape-divider-bottom-1642336185">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  <section class="flex justify-center pt-12 h-flex bg-yellow-400 ">
+    <div class="leading-loose ">
+    <img alt="ecommerce" class="w-36 h-36 mx-auto mb-8 mt-8" src="city1.png"></img>
+        <h class="font-bold text-4xl flex justify-center pb-16">Miasta w których działamy</h>
         <div class="mb-3 -mx-2 flex items-end pt-4 px-96 w-screen ">
             <div class="px-3 w-1/6 ml-80 ">               
                 <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Warszawa</button>              
@@ -509,15 +555,21 @@ export default function Home() {
             </div>
 
             <div class="px-2 w-1/6 mr-96">
-                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black">Bielsko-Biała</button>
+                <button class="w-full py-3 bg-white bg-opacity-80 rounded-full text-lg font-bold text-black ">Bielsko-Biała</button>
             </div>
         </div>
     </div>
+    
 </section>
+<div class="custom-shape-divider-top-1642337239">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+</div>
   <section class="bg-gray-800">
-<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
+<div class="container mx-auto flex flex-col md:flex-row items-center my-12 pb-52">
 			    <div class="flex flex-col w-full lg:w-2/3 justify-center items-start p-8 ">
-				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-700">A MOŻE PARTNERSTWO!</h1>
+				    <h1   h1 class="text-3xl md:text-5xl pb-2  text-yellow-400">A MOŻE PARTNERSTWO!</h1>
 				    <h2 class="text-3xl md:text-5xl leading-relaxed text-white md:leading-snug mb-2">Chcesz dołączyć do naszej sieci rstauracji. Nie ma nic prostszego!</h2>
             <p1 class="text-xl md:text-xl leading-relaxed text-white md:leading-snug mb-2">Skontaktuj sie z nami juz teraz!</p1>
 					<Link href="zostan_kurierem"> 
