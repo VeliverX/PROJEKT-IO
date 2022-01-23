@@ -18,7 +18,7 @@ export default function Home() {
     </Link>
   <nav class="contents font-semibold text-base lg:text-lg">
     <ul class="ml-auto flex items-center">
-    <button class="
+    <button id="przycisk"  class="
     relative 
     flex jutify-center items-center 
     bg-transparent 
@@ -44,7 +44,7 @@ export default function Home() {
     shadow-md mt-1 rounded
     
   ">
-    <ul class="text-left border rounded w-96">
+    <ul id="menu" class="text-left border rounded w-96">
       <Link href="strona_glowna">
       <li class="px-4 py-3 border-b hover:text-blue-500">
         Strona Główna
@@ -61,7 +61,7 @@ export default function Home() {
       </li>
       </Link>
       <Link href="promocje">
-      <li class="px-4 py-3 border-b hover:text-blue-500">
+      <li id="porom" class="px-4 py-3 border-b hover:text-blue-500">
         Promocje
       </li>
       </Link>

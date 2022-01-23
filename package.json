@@ -6,9 +6,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "cypress": "cypress open",
+    "cypress:headless": "cypress run",
+    "e2e": "start-server-and-test dev http://localhost:3000 cypress",
+    "e2e:headless": "start-server-and-test dev http://localhost:3000 cypress:headless"
   },
-  
   "dependencies": {
     "next": "12.0.4",
     "react": "17.0.2",
@@ -22,7 +25,8 @@
     "eslint-config-next": "12.0.4",
     "jest": "^27.4.7",
     "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "cypress": "8.2.0",
+    "start-server-and-test": "1.13.1"
   }
 }
-
