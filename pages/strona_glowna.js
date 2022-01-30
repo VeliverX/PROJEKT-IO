@@ -6,7 +6,9 @@ import {Fragment} from 'react'
 
 export default function Home() {
   return (
+    
     <body class="bg-gray-800" >
+      <title>Strona główna</title>
     <header class="bg-yellow-400 text-white  hidden md:block sticky top-0 z-50 ">
     <Fragment>
 <div class="container mx-auto flex items-center h-24">

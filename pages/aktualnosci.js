@@ -4,6 +4,7 @@ import {Fragment} from 'react'
 export default function Home() {
     return (
         <body>
+            <title>Aktualności</title>
         <header class="bg-yellow-500 text-white shadow-lg hidden md:block">
         <Fragment>
     <div class="container mx-auto flex items-center h-24">

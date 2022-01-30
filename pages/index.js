@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
     <section>
+		<title>Witaj!</title>
 	    <div class="bg-yellow-400 text-white py-20">
 		    <div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-52">
 			    <div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">

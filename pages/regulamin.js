@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
       <body class="bg-yellow-400">
+          <title>Regulamin</title>
     <section class="flex justify-center items-center h-auto">
     <div class="max-w-screen-xl w-full bg-white rounded-2xl p-10  space-y-6">
         <h1 class="flex justify-center text-gray-600 text-3xl font-medium">REGULAMIN DONERKEBAB:</h1>

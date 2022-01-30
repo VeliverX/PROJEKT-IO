@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
 <section class="flex justify-center pt-44 h-screen bg-yellow-400">
+<title>Płatność</title>
 <div class="leading-loose">
   <form class="max-w-xl  p-10 bg-white rounded shadow-xl  ">
     <p class="text-gray-800 font-medium font-bold">Podaja dane karty</p>

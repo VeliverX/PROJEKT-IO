@@ -1,7 +1,9 @@
 import Link from 'next/link'
 export default function Home() {
     return (
+		
 <div class="h-screen w-full flex overflow-hidden">
+<title>Panel Pracownika</title>
 	<nav class="flex flex-col bg-gray-200 dark:bg-gray-900 w-64 px-12 pt-4 pb-6">
 	
 

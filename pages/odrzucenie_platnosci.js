@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
 <section class="flex justify-center items-center h-screen bg-yellow-400">
+<title>Odrzucenie Płatności</title>
 <div class="bg-white h-96 w-96">
       <div class="bg-white p-6  md:mx-auto">
             <img class="flex px-32 py-4" src="remove.png" alt="" />

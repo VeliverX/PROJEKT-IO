@@ -2,6 +2,7 @@ import Link from 'next/link'
 export default function Home() {
 return (
     <body class="bg-gray-800 h-full md:h-screen" >
+      <title>Koszyk</title>
     <header class="bg-yellow-400  text-white shadow-lg hidden md:block">
       
   <div class="container mx-auto flex items-center h-24">

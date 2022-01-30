@@ -4,6 +4,7 @@ export default function Home() {
 
 
 <section class="flex justify-center items-center h-screen bg-yellow-400">
+<title>Pracownik</title>
     <div class="max-w-md w-full bg-white rounded p-10  space-y-6">
         <div class="mb-4">
             <p class="flex justify-center text-gray-600 text-3xl font-medium	">Dołącz do nas! </p>

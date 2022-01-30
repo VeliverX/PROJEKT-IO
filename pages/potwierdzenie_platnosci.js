@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
 <section class="flex justify-center items-center h-screen bg-yellow-400">
+<title>Potwierdzenie Płatności</title>
 <div class="bg-white h-96 w-96">
       <div class="bg-white p-6  md:mx-auto">
         <svg viewBox="0 0 24 24" class="text-green-600 w-16 h-16 mx-auto my-6">

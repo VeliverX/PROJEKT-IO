@@ -5,6 +5,7 @@ import {Fragment} from 'react'
 export default function Home() {
   return (
 <section class="flex justify-center items-center h-screen bg-yellow-400">
+<title>Ustawienia</title>
     <div class="my-20 w-96">
       <div class="bg-white rounded overflow-hidden shadow-lg">
         <div class="text-center p-6  border-b">
